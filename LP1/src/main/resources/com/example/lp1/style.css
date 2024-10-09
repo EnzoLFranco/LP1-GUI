@@ -1,0 +1,24 @@
+/* styles.css */
+.button {
+    -fx-background-color: black; /* Cor de fundo preta */
+    -fx-text-fill: white;        /* Cor do texto em branco */
+    -fx-font-size: 12px;         /* Tamanho da fonte menor */
+    -fx-padding: 5px 10px;       /* Espaçamento interno menor */
+    -fx-border-radius: 3px;      /* Bordas arredondadas */
+    -fx-background-radius: 3px;  /* Arredondamento do fundo */
+}
+
+.button:hover {
+    -fx-background-color: #333;  /* Cor de fundo ao passar o mouse */
+}
+
+.button:pressed {
+    -fx-background-color: #555;  /* Cor de fundo ao pressionar */
+}
+
+#buttonMetodo1, #buttonMetodo2, #buttonMetodo3 {
+    -fx-background-color: #000000;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20;
+}

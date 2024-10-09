@@ -1,0 +1,6 @@
+#buttonMetodo1, #buttonMetodo2, #buttonMetodo3, #button {
+    -fx-background-color: #000000;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20;
+}
