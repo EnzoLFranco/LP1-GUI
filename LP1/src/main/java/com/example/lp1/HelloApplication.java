@@ -19,7 +19,7 @@ public class HelloApplication extends Application {
 
         menu1.getStylesheets().add(css);
 
-        stage.setTitle("Menu de Classes");
+        stage.setTitle("Classe's Menu");
         stage.setScene(menu1);
         stage.setWidth(620);
         stage.setHeight(450);

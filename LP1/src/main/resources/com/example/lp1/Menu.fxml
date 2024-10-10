@@ -4,6 +4,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
@@ -14,12 +15,15 @@
             <Font size="14.0" />
          </font>
       </Button>
-      <Text fx:id="titleLabel" layoutX="82.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-Escolha uma das classes para testar os métodos-">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="30.0" layoutX="-10.0" layoutY="-1.0" stroke="WHITE" strokeType="INSIDE" width="626.0" />
+      <Text fx:id="titleLabel" fill="WHITE" layoutX="82.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-Escolha uma das classes para testar os métodos-">
          <font>
             <Font name="Bell MT" size="22.0" />
          </font>
       </Text>
-      <VBox alignment="TOP_CENTER" layoutX="214.0" layoutY="109.0" prefHeight="285.0" prefWidth="174.0" style="-fx-spacing: 10;">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BEIGE" height="88.0" layoutX="-8.0" layoutY="27.0" stroke="WHITE" strokeType="INSIDE" width="620.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="TAN" height="287.0" layoutX="194.0" layoutY="113.0" stroke="WHITE" strokeType="INSIDE" width="208.0" />
+      <VBox alignment="TOP_CENTER" layoutX="213.0" layoutY="116.0" prefHeight="285.0" prefWidth="174.0" style="-fx-spacing: 10;">
          <children>
             <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Classes disponiveis:" textAlignment="CENTER" />
             <Text strokeType="OUTSIDE" strokeWidth="0.0" text="ANIMAIS" textAlignment="CENTER" />
@@ -34,11 +38,11 @@
             <Text strokeType="OUTSIDE" strokeWidth="0.0" text="APARELHOS ELETRÔNICOS" textAlignment="CENTER" />
          </children>
       </VBox>
-      <Pane layoutX="-4.0" layoutY="27.0" prefHeight="75.0" prefWidth="610.0">
+      <Pane layoutX="-4.0" layoutY="27.0" prefHeight="47.0" prefWidth="610.0">
          <children>
             <Button layoutX="5.0" layoutY="12.0" mnemonicParsing="false" onAction="#trocaAnimais" styleClass="button" text="Animais" />
             <Button layoutX="71.0" layoutY="12.0" mnemonicParsing="false" onAction="#trocaAviões" styleClass="button" text="Aviões" />
-            <Button layoutX="129.0" layoutY="12.0" mnemonicParsing="false" onAction="#trocaCarros" styleClass="button" text="Carros" />
+            <Button layoutX="130.0" layoutY="12.0" mnemonicParsing="false" onAction="#trocaCarros" styleClass="button" text="Carros" />
             <Button layoutX="187.0" layoutY="12.0" mnemonicParsing="false" onAction="#trocaInstrumentos" styleClass="button" text="Instrumentos" />
             <Button layoutX="279.0" layoutY="12.0" mnemonicParsing="false" onAction="#trocaRoupas" styleClass="button" text="Roupas" />
             <Button layoutX="343.0" layoutY="12.0" mnemonicParsing="false" onAction="#trocaPokemons" styleClass="button" text="Pokémons" />
